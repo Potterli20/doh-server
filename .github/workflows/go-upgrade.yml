@@ -17,7 +17,6 @@ jobs:
       - name: go
         run: |
           go mod tidy -compat=1.21
-          gofmt -w -r 'interface{} -> any' .
           go get -u
           go mod download
 
@@ -31,7 +30,7 @@ jobs:
           git gc --aggressive
           git add --all
           git commit -m "update go $(date +%Y.%m.%d.%H.%M)"
-          git push -f -u origin master
+          git push -f -u origin main
           
     # 删除无用 workflow runs;
       - name: Delete workflow runs
