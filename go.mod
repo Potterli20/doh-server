@@ -3,7 +3,7 @@ module github.com/Potterli20/doh-server
 go 1.21
 
 require (
-	github.com/BurntSushi/toml v1.3.2
+	github.com/BurntSushi/toml v1.4.0
 	github.com/gorilla/handlers v1.5.2
 	github.com/infobloxopen/go-trees v0.0.0-20221216143356-66ceba885ebc
 	github.com/miekg/dns v1.1.59
