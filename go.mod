@@ -1,8 +1,6 @@
 module github.com/Potterli20/doh-server
 
-go 1.24.0
-
-toolchain go1.24.6
+go 1.25.0
 
 tool golang.org/x/tools/cmd/stringer
 
@@ -11,7 +9,7 @@ require (
 	github.com/gorilla/handlers v1.5.2
 	github.com/infobloxopen/go-trees v0.0.0-20221216143356-66ceba885ebc
 	github.com/miekg/dns v1.1.72
-	golang.org/x/net v0.50.0
+	golang.org/x/net v0.51.0
 )
 
 require (
